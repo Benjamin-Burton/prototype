@@ -82,6 +82,7 @@ Please note this is a different username and password to the one used to sign in
 username : expressApp  
 password : tm8lIPIpDbxQr0qo
 
+The below no longer relevant - all IPs can access the mongoDB database.
 That is not enough however!
 Wherever the app is running also needs to have their IP address whitelisted inside mongoDB's console. I can do this but anyone else can also long in to the cloud and whitelist their IP address. If you want to run the app just let me know and i'll whitelist your IP or show you how to do it. 
 
