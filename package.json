@@ -4,7 +4,8 @@
   "description": "Hi all, I'm going to document the process I am going through to install everything required for the project to  run on my local machine.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
   },
   "keywords": [],
   "author": "",
