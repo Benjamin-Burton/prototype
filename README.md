@@ -52,10 +52,13 @@ Navigate to http://localhost:5000/express_backend to see a bit os JSON sent from
 
 # Running the react app
 In another terminal window, navigate to the client directory
-    cd ./client
+    `cd ./client`
+
+Delete any existing package-lock.json file and run the command:
+    `npm install`
 
 run the command: 
-    npm start
+    `npm start`
 
 This will start a react dev server. If you have a look at the bottom on the screen there will a message indicating the you have connected to the Express server.
 It should also indicate that you have connected to the mongoDB server, but you might need to whitelist your IP address first.
